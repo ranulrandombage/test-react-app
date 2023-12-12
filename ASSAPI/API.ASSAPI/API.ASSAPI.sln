@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.ASSAPI", "API.ASSAPI.csproj", "{70A28600-87A3-4955-8594-8DD54FFA163C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DATA.ASSAPI", "..\DATA.ASSAPI\DATA.ASSAPI.csproj", "{DE1B360A-2531-4235-9F6E-6F5ADD62B9AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces.ASSAPI", "..\Interfaces.ASSAPI\Interfaces.ASSAPI.csproj", "{13D4942C-1B56-4799-B499-B1FFE926B144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.ASSAPI", "..\Services.ASSAPI\Services.ASSAPI.csproj", "{33C5C9D5-49B7-4642-935C-FA80A463AD58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mappers.ASSAPI", "..\Mappers.ASSAPI\Mappers.ASSAPI.csproj", "{DFEA5FBE-02F3-4390-911B-527B09306C72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helper", "Helper", "{1B839613-98B9-46BA-857D-966EB79FB23D}"
+	ProjectSection(SolutionItems) = preProject
+		MessageManager.cs = MessageManager.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70A28600-87A3-4955-8594-8DD54FFA163C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A28600-87A3-4955-8594-8DD54FFA163C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A28600-87A3-4955-8594-8DD54FFA163C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A28600-87A3-4955-8594-8DD54FFA163C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1B360A-2531-4235-9F6E-6F5ADD62B9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1B360A-2531-4235-9F6E-6F5ADD62B9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1B360A-2531-4235-9F6E-6F5ADD62B9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1B360A-2531-4235-9F6E-6F5ADD62B9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D4942C-1B56-4799-B499-B1FFE926B144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D4942C-1B56-4799-B499-B1FFE926B144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D4942C-1B56-4799-B499-B1FFE926B144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D4942C-1B56-4799-B499-B1FFE926B144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C5C9D5-49B7-4642-935C-FA80A463AD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C5C9D5-49B7-4642-935C-FA80A463AD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C5C9D5-49B7-4642-935C-FA80A463AD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C5C9D5-49B7-4642-935C-FA80A463AD58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEA5FBE-02F3-4390-911B-527B09306C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEA5FBE-02F3-4390-911B-527B09306C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEA5FBE-02F3-4390-911B-527B09306C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEA5FBE-02F3-4390-911B-527B09306C72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2270165B-8260-4EEC-B483-0DAF18E3A151}
+	EndGlobalSection
+EndGlobal
